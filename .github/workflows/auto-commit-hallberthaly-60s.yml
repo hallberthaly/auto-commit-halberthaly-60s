@@ -6,7 +6,7 @@ on:
       - master
       
   schedule:
-    - cron: "*/11 * * * *"   # <-- setiap 11 menit
+    - cron: "* * * * *"   # <-- setiap menit
 
 jobs:
   auto_commit:
